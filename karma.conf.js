@@ -68,9 +68,6 @@ module.exports = function(config) {
     frameworks: ['jasmine', 'karma-typescript'],
     // karma-typescript: https://github.com/monounity/karma-typescript/tree/master/packages/karma-typescript
     karmaTypescriptConfig: {
-      bundlerOptions: {
-        transforms: [require('karma-typescript-es6-transform')()],
-      },
       exclude: EXCLUDE_FILES,
       tsconfig: './tsconfig-base.json',
     },

@@ -21,6 +21,7 @@
  * THE SOFTWARE.
  */
 
+import 'core-js/features/array/from';
 import {MDCFoundation} from '../../packages/mdc-base/foundation';
 
 import {createMockAdapter, FoundationConstructor} from './foundation';
