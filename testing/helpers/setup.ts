@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import 'core-js/es6';
+import 'core-js/es';
 import {MDCFoundation} from '../../packages/mdc-base/foundation';
 
 import {createMockAdapter, FoundationConstructor} from './foundation';
