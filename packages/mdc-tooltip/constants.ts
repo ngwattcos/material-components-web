@@ -24,7 +24,9 @@
 const cssClasses = {
   SHOWN: 'mdc-tooltip--shown',
   SHOWING: 'mdc-tooltip--showing',
+  SHOWING_TRANSITION: 'mdc-tooltip--showing-transition',
   HIDE: 'mdc-tooltip--hide',
+  HIDE_TRANSITION: 'mdc-tooltip--hide-transition',
 };
 
 const numbers = {
