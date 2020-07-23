@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@use "@material/feature-targeting/feature-targeting";
-@use "@material/animation/functions" as animation-functions;
-@use "@material/feature-targeting/mixins" as feature-targeting-mixins;
-@use "@material/typography/mixins" as typography-mixins;
-@use "./tooltip-theme";
+@use '@material/feature-targeting/feature-targeting';
+@use '@material/animation/functions' as animation-functions;
+@use '@material/feature-targeting/mixins' as feature-targeting-mixins;
+@use '@material/typography/mixins' as typography-mixins;
+@use './tooltip-theme';
 
 $_padding-x: 4px;
 $_padding-y: 8px;

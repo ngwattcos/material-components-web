@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@use "@material/animation/variables" as animation-variables;
-@use "@material/tab/mixins" as tab-mixins;
-@use "@material/feature-targeting/feature-targeting";
-@use "@material/feature-targeting/mixins" as feature-targeting-mixins;
-@use "./variables";
+@use '@material/animation/variables' as animation-variables;
+@use '@material/tab/mixins' as tab-mixins;
+@use '@material/feature-targeting/feature-targeting';
+@use '@material/feature-targeting/mixins' as feature-targeting-mixins;
+@use './variables';
 
 ///
 /// Sets the CSS transition for the tab scrolling animation.

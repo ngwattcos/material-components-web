@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@use "../functions";
-@use "@material/theme/mixins";
-@use "@material/typography/mixins" as typography-mixins;
-@use "@material/feature-targeting/feature-targeting";
-@use "@material/feature-targeting/mixins" as feature-targeting-mixins;
+@use '../functions';
+@use '@material/theme/mixins';
+@use '@material/typography/mixins' as typography-mixins;
+@use '@material/feature-targeting/feature-targeting';
+@use '@material/feature-targeting/mixins' as feature-targeting-mixins;
 // Public mixins
 
 @mixin helper-text-core-styles($query: feature-targeting.all()) {

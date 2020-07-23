@@ -20,13 +20,13 @@
 // THE SOFTWARE.
 //
 
-@use "@material/feature-targeting/mixins" as feature-mixins;
+@use '@material/feature-targeting/mixins' as feature-mixins;
 @use '@material/feature-targeting/feature-targeting';
-@use "@material/ripple/mixins" as ripple;
-@use "@material/rtl/mixins" as rtl;
-@use "@material/theme/mixins" as theme;
-@use "@material/touch-target/mixins" as touch;
-@use "./variables";
+@use '@material/ripple/mixins' as ripple;
+@use '@material/rtl/mixins' as rtl;
+@use '@material/theme/mixins' as theme;
+@use '@material/touch-target/mixins' as touch;
+@use './variables';
 
 $ripple-target: '.mdc-chip-trailing-action__ripple';
 
