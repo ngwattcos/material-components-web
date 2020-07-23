@@ -3,6 +3,88 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0](https://github.com/material-components/material-components-web/compare/v7.0.0...v8.0.0) (2020-07-23)
+
+
+### Bug Fixes
+
+* **chip-set:** crash when only item is removed ([a653b68](https://github.com/material-components/material-components-web/commit/a653b68118e823ae30b1f47f87a4a8e5e69d9186))
+* **circular-progress:** Default all variables ([430fd02](https://github.com/material-components/material-components-web/commit/430fd025b07b3e15dd699620fbbfca75f74632a3))
+* **circular-progress:** use theme.property() for color mixins ([7bd5075](https://github.com/material-components/material-components-web/commit/7bd5075de978f8499f4cdc3b8359005184fa5192))
+* **data-table:** Add noflip annotation to header cell text align ([843f636](https://github.com/material-components/material-components-web/commit/843f636c047b5371cd31b9ae4af76a7ec494b446))
+* **data-table:** Fix icon misalignment in sort icon button when sorted down ([610c26c](https://github.com/material-components/material-components-web/commit/610c26c4a1c7928fec0e8d63be3bd76cb7ff76a0))
+* **data-table:** Fix JS error in IE11 when setting multiple styles ([d548d7a](https://github.com/material-components/material-components-web/commit/d548d7a923393f4be11a7919542fa07f5a224d29))
+* **data-table:** Set progress indicator height to table body offset height ([c678a9d](https://github.com/material-components/material-components-web/commit/c678a9d34a3f694511f292c7a62e68749721b63c))
+* **elevation:** Use relative path when importing theme Sass file. ([405a29a](https://github.com/material-components/material-components-web/commit/405a29a2016565f8cb269915c5f6c0d4df133c6d))
+* **mdc-dialog:** second dialog `data-mdc-dialog-initial-focus` doesn't work ([a0ec7e2](https://github.com/material-components/material-components-web/commit/a0ec7e25d0ba26c2e85d5576e6af5e5d65b301a3))
+* **select:** do not emit change event when same value selected twice ([e07a708](https://github.com/material-components/material-components-web/commit/e07a7084134b6bbfb1d31a00e410b9d133f28863))
+* **select:** move label before selected text for screenreader a11y ([e139d62](https://github.com/material-components/material-components-web/commit/e139d626eefc941415b876597787753520a45ab1))
+* **select:** revert 2fed2c1 that delegates to list for single selection logic ([38197b4](https://github.com/material-components/material-components-web/commit/38197b4434959cc8b47124233003c14d9c4a0fbf))
+* **shape:** remove deprecated functions ([e2ea4a9](https://github.com/material-components/material-components-web/commit/e2ea4a99e1930ac4981f22a2b919bdbd31e75a95))
+* **snackbar:** remove use of [@at-root](https://github.com/at-root) ([98d0296](https://github.com/material-components/material-components-web/commit/98d02962b5f1edd9f541f19198dc3d1992720ea3))
+* **textfield:** affix outlined alignment Safari bug ([ad4df58](https://github.com/material-components/material-components-web/commit/ad4df58c1e9ba7a893780dc5fe7886179a0361f9))
+* **textfield:** autofill filled label not floating correctly ([abcdbcf](https://github.com/material-components/material-components-web/commit/abcdbcfebdcb8a8abe386abb00cd33230e8ef7a1))
+* **textfield:** remove Chrome icons for date types ([4951e76](https://github.com/material-components/material-components-web/commit/4951e7651ffbd99b382948e48306a23d2fd74fb1))
+* **textfield:** remove fullwidth variant ([69a35e8](https://github.com/material-components/material-components-web/commit/69a35e80ceadb5ef9ffae87345eefbd80b383f51))
+* **theme:** property() mixin not working with theme key strings ([c1fec42](https://github.com/material-components/material-components-web/commit/c1fec424677fcb77dfc966ff1805d601a103fa30)), closes [#6158](https://github.com/material-components/material-components-web/issues/6158)
+
+
+### Code Refactoring
+
+* **circular-progress:** move all sizing params from CSS to markup ([58ce529](https://github.com/material-components/material-components-web/commit/58ce529ccc29d3b172c1e774c70424eb54aac5dc))
+
+
+### Features
+
+* **data-table:** Add progress indicator / loading feature to data table ([4497ace](https://github.com/material-components/material-components-web/commit/4497acef8fd636b6ceef3cf055f664c92465e965))
+* **data-table:** Added support for sticky header row in data table ([599b8c3](https://github.com/material-components/material-components-web/commit/599b8c3191a888e3debd94ad4934f741c5fb6e23))
+* **elevation:** add custom props for overlay ([4c354a3](https://github.com/material-components/material-components-web/commit/4c354a36d012e5d241f27380db1d0d9e70769c27))
+* **fab:** support css custom props for extended-padding ([01db890](https://github.com/material-components/material-components-web/commit/01db890532f796ea3e66a9c7d76893bef8689d6f))
+* **menu-surface:** Add transition to height for menu resizing animation. ([1e7cb61](https://github.com/material-components/material-components-web/commit/1e7cb61989c95f9b86de3b1f6edb1773c12dfc97))
+* **ripple:** Add will-change opt-out param ([e590b37](https://github.com/material-components/material-components-web/commit/e590b376bf20bde50e6f6b62339c0bac2703ccf0))
+* **segmented-button:** add adapters and foundations ([#6165](https://github.com/material-components/material-components-web/issues/6165)) ([6ed717d](https://github.com/material-components/material-components-web/commit/6ed717dddf5f62dd5bfc621388ae07471775612f))
+* **segmented-button:** Add component outlines ([#6222](https://github.com/material-components/material-components-web/issues/6222)) ([a0f1202](https://github.com/material-components/material-components-web/commit/a0f1202dc5cd67207877167558742d0b18bf0e32))
+* **segmented-button:** Add new package for segmented button ([#6073](https://github.com/material-components/material-components-web/issues/6073)) ([d561860](https://github.com/material-components/material-components-web/commit/d5618602a8ef45a1fdf753c3598afc5e1cadc95b))
+* **segmented-button:** Added foundation business logic ([#6198](https://github.com/material-components/material-components-web/issues/6198)) ([e6e2301](https://github.com/material-components/material-components-web/commit/e6e23019d567802c13d0bd6559a35291c48abc91))
+* **slider:** Add M2 version of slider. ([8158544](https://github.com/material-components/material-components-web/commit/8158544774c50ba21b114f6fe24786816ba4c4fd))
+* **snackbar:** Update stacked layout to add an additional 8px on the label's right padding ([521afaf](https://github.com/material-components/material-components-web/commit/521afaf6e3086285b040c06fc3dbc92f20dc9b06))
+* **theme:** add deep-get utility ([fb5a4cd](https://github.com/material-components/material-components-web/commit/fb5a4cdeb79de0412a9e0573db1dacb28e8186f3))
+* **tooltip:** Add tooltip component into MDC catalog. ([b9394dc](https://github.com/material-components/material-components-web/commit/b9394dc5da7db3b60497cf81aa5f26a5758d9b37))
+* **tooltip:** Center align tooltip label text. ([5dac1f6](https://github.com/material-components/material-components-web/commit/5dac1f624606fc92682a4266ffd68bea21e57069))
+* **tooltip:** Foundation will now send a notification when the tooltip has been hidden. Methods added into the adapter to allow for this functionality. ([9274f85](https://github.com/material-components/material-components-web/commit/9274f8504a905e04f24fba8f6a0e246d7ae3a638))
+* add custom property support for select, textfield, and notched outline ([ec23858](https://github.com/material-components/material-components-web/commit/ec2385881f93b75641db661038aae439b4c217d1))
+
+
+### Reverts
+
+* "Include tooltip directory for future copybara syncs." ([#6185](https://github.com/material-components/material-components-web/issues/6185)) ([b0c456d](https://github.com/material-components/material-components-web/commit/b0c456d330f31bc890c54d114de1d56ac23fee9f))
+
+
+### BREAKING CHANGES
+
+* **slider:** This upgrades the old slider to a new version of slider that adheres to the M2 design spec. Changes include:
+- M2 design (primary instead of secondary color used, larger active track and thumb, improved tick marks UI)
+- Range (two-thumb slider) slider
+- Pointer events support (for browsers that support pointer events)
+- High contrast mode support
+- Improved accessibility (follows WAI-ARIA spec for slider)
+- Bug fixes
+
+PiperOrigin-RevId: 322199406
+* **circular-progress:** DOM Changed. See README for updated markup. `$default-size`, `$stroke-width`, and `$container-side-length` variables removed.
+
+PiperOrigin-RevId: 321231651
+* **snackbar:** The right padding of the label for the `mdc-snackbar--stacked` variant will now have an additional 8px
+
+PiperOrigin-RevId: 319021332
+* **data-table:** New adapter method replacing `getTableBodyHeight()` => `getTableHeaderHeight()` and changed return types of this method.
+
+PiperOrigin-RevId: 318845959
+
+
+
+
+
 # [7.0.0](https://github.com/material-components/material-components-web/compare/v6.0.0...v7.0.0) (2020-06-23)
 
 
