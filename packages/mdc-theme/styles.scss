@@ -20,5 +20,6 @@
 // THE SOFTWARE.
 //
 
-/// @deprecated Import '_color.scss' Sass module instead.
-@forward './color' show $primary, $on-primary, $accent, $secondary, $on-secondary, $background, $surface, $on-surface, $error, $on-error, $text-colors, $text-emphasis, ink-color-for-fill_, $property-values, prop-value, prop-value, accessible-ink-color, is-valid-theme-prop-value_, text-emphasis;
+@use './mixins';
+
+@include mixins.core-styles;
